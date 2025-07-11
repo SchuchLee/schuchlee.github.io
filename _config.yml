@@ -102,7 +102,6 @@ markdown:
   smartLists: true
   smartypants: true
 
-
 import:
   meta:
   - "<meta name='theme-color' content='#FFFFFF'>"
@@ -116,46 +115,10 @@ import:
   - "<link rel='manifest' href='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/favicon/site.webmanifest'>"
   # script:
 
-# Offline v2 版写法不允许写到 _config.yml 中
-## Config passed to sw-precache
-## https://github.com/JLHwung/hexo-offline
-# offline config passed to sw-precache.
-# offline:
-#   maximumFileSizeToCacheInBytes: 10485760
-#   staticFileGlobs:
-#     - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
-#   stripPrefix: public
-#   verbose: true
-#   runtimeCaching:
-#     - urlPattern: /*
-#       handler: cacheFirst
-#       options:
-#         origin: cdn.jsdelivr.net
-#     - urlPattern: /*
-#       handler: cacheFirst
-#       options:
-#         origin: cdnjs.cloudflare.com
-
 nofollow:
   enable: true
   exclude:
     - xaoxuu.com
-
-
-# npm i hexo-neat
-neat_enable: true
-
-
-
-# 图片懒加载
-lazyload:
-  enable: true
-  onlypost: false
-  loadingImg: https://img.vim-cn.com/92/d570170f4f12e1ee829ca0e85a7dffeb77343a.svg
-
-
-# 百度统计key
-# baidu_analytics_key: cd037d28d6a6eaf5b81b7c9b024741cc
 
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
