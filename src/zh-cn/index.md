@@ -5,7 +5,7 @@ lang: zh-cn
 keywords: 简历主题,Hexo主题,简历模板
 description: 这是一个在线简历模板（Hexo博客主题）。
 # 简历标题
-resume_title: Jon Snow's Resume
+resume_title: 李舒赫
 # 应聘者姓名
 name: Jon Snow
 avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
