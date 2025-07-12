@@ -1,158 +1,199 @@
 ---
 # Language (Optional)
-lang: zh
+lang: en
 # Site Keywords & Description
-keywords: SchuchLee,简历,个人主页,Resume
-description: SchuchLee的个人简历
+keywords: Resume,Hexo,Resume Theme
+description: This is a cool resume theme for hexo.
 # Resume Title
-resume_title: SchuchLee 的个人简历
+resume_title: Jon Snow's Resume
 # Job Applicant Name
-name: SchuchLee
+name: Jon Snow
 avatar: https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/avatar/avatar.png
 # Contact
 contact:
-  # Website
+  # URL
   - icon: fas fa-globe-europe
-    text: https://schuchlee.github.io
-    url: https://schuchlee.github.io
+    text: https://resume.js.org
+    url: https://resume.js.org
   # Email
   - icon: fas fa-envelope
-    text: your-email@example.com
-    url: mailto:your-email@example.com
+    text: your email
+    url:
   # Phone Number
   - icon: fas fa-phone-alt
-    text: +86 138-xxxx-xxxx
-    url: tel:138xxxxxxxx
-  # GitHub
-  - icon: fab fa-github
-    text: github.com/SchuchLee
-    url: https://github.com/SchuchLee
+    text: 1xxxxxxxxxx
+    url: tel:10086
 # PDF Download Link
 download:
-  title: 下载简历
+  title: Download
   icon: fas fa-download fa-fw
-  url: #
+  url: https://github.com/xaoxuu/resume-docs
 ---
 
 {% raw %}
 <center>
-<a href='/'>中文</a> | <a href='/zh-cn/'>English</a>
+<a href='/'>English</a> | <a href='/zh-cn/'>简体中文</a>
 </center>
 {% endraw %}
 
-## <i class="fas fa-user"></i> 个人简介
 
-在这里写一段简短的自我介绍，包括你的专业背景、技能特长和职业目标。比如：
+## <i class="fas fa-flag"></i> Getting Started
 
-- 🎓 计算机科学与技术专业毕业
-- 💻 热爱编程，擅长多种编程语言
-- 🌟 具有良好的团队协作能力
-- 📚 持续学习，关注新技术发展
+Please directly download the source code of this site and refer to the source code for rewriting.
 
-## <i class="fas fa-user-graduate"></i> 教育经历
+- Site Source code: https://github.com/xaoxuu/resume-docs
+- Theme source code: https://github.com/xaoxuu/hexo-theme-resume
 
-**XXX大学 · 计算机科学与技术专业 · 本科**
-*2020年9月 - 2024年6月*
 
-- 主要课程：数据结构、算法设计、软件工程、数据库系统等
-- GPA: X.X/4.0
-- 获得奖项：优秀学生奖学金、XXX竞赛奖项等
+## <i class="fas fa-user-graduate"></i> Education
 
-## <i class="fas fa-briefcase"></i> 工作经历
+**XX University X College X Course X Major X Graduation**
 
-### 实习生 - XXX公司
-*2023年7月 - 2023年9月*
 
-- 参与XXX项目的开发工作
-- 负责前端/后端开发
-- 使用技术栈：React/Vue, Node.js, Python等
+## <i class="fas fa-user-tie"></i> Work Experience
 
-### 项目助理 - XXX实验室
-*2022年9月 - 2023年6月*
 
-- 协助导师进行XXX研究项目
-- 数据处理与分析
-- 论文撰写与实验设计
+#### 2000 ~ Present: Company XX
 
-## <i class="fas fa-code"></i> 技术技能
+- Mainly responsible for XXX
 
-### 编程语言
-- **Python**: 熟练掌握，用于数据分析、Web开发
-- **JavaScript**: 熟练掌握，前端开发主要语言
-- **Java**: 良好掌握，后端开发经验
-- **C/C++**: 基础扎实，算法实现
+#### 1900 ~ 2000: Company XX
 
-### 框架与工具
-- **前端**: React, Vue.js, HTML5, CSS3
-- **后端**: Node.js, Django, Flask
-- **数据库**: MySQL, MongoDB, Redis
-- **工具**: Git, Docker, VS Code
+- Mainly responsible for XXX
 
-### 其他技能
-- 数据分析与可视化
-- 机器学习基础
-- Linux系统操作
-- 英语读写能力良好
+#### 1800 ~ 1900: company XX
 
-## <i class="fas fa-project-diagram"></i> 项目经历
+- Mainly responsible for XXX
 
-### 个人博客系统
-*2023年3月 - 2023年5月*
 
-- **技术栈**: React + Node.js + MongoDB
-- **项目描述**: 开发了一个全栈博客系统，包含用户注册登录、文章发布、评论等功能
-- **主要职责**: 
-  - 前端界面设计与开发
-  - 后端API设计与实现
-  - 数据库设计
-- **项目地址**: [GitHub链接](https://github.com/SchuchLee/blog-project)
 
-### 数据可视化大屏
-*2022年12月 - 2023年2月*
+## <i class="fas fa-award"></i> Featured Projects
 
-- **技术栈**: Vue.js + ECharts + Python
-- **项目描述**: 为某企业开发数据可视化大屏，实时展示业务数据
-- **主要职责**:
-  - 数据处理与清洗
-  - 图表设计与开发
-  - 实时数据更新机制
 
-### 校园二手交易平台
-*2022年6月 - 2022年8月*
+{% raw %}
+<btns rounded>
+<a href='https://apps.apple.com/cn/app/heart-mate-pro-hrm-utility/id1463348922?ls=1'>
+  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/heartmate/icon.png'>
+  心率管家
+</a>
+<a href='https://apps.apple.com/cn/app/c%E5%85%BB%E8%80%81/id1458315594'>
+  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-cyanglao/icon.png'>
+  C养老
+</a>
+<a href='https://apps.apple.com/cn/app/c-life%E5%85%BB%E8%80%81/id1393937890'>
+  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/het-clife/icon.png'>
+  C-Life养老
+</a>
+<a href='https://apps.apple.com/cn/app/linksmart/id1109303355'>
+  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-linksmart/icon.png'>
+  LinkSmart
+</a>
+<a href='https://apps.apple.com/cn/app/hitfit/id1207738581'>
+  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-hitfit/icon.png'>
+  HitFit
+</a>
+<a href='https://apps.apple.com/cn/app/%E8%85%95%E8%83%BD%E5%8A%A9%E6%89%8B/id1138242219'>
+  <img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/ht-fiyta/icon.png'>
+  飞亚达腕能助手
+</a>
+</btns><br>
+{% endraw %}
 
-- **技术栈**: 微信小程序 + Flask + MySQL
-- **项目描述**: 开发校园二手物品交易平台
-- **主要职责**:
-  - 小程序前端开发
-  - 后端API开发
-  - 数据库设计
 
-## <i class="fas fa-certificate"></i> 证书与荣誉
+### Project A
 
-- 🏆 优秀毕业生
-- 📜 计算机等级考试二级证书
-- 🎖️ XXX编程竞赛三等奖
-- 📚 英语四级/六级证书
+#### 2000/01 ~ 2019/01: Developed by XX company, team project, maintenance so far
 
-## <i class="fas fa-heart"></i> 兴趣爱好
+啦啦啦
 
-- 💻 开源项目贡献
-- 📖 技术博客写作
-- 🎵 音乐与电影
-- 🏃‍♂️ 运动健身
-- 🎨 摄影与设计
+### Project B
 
-## <i class="fas fa-envelope"></i> 联系方式
+#### 1900/01 ~ 2000/01: Developed by XX company
 
-📧 **邮箱**: your-email@example.com  
-📱 **电话**: +86 138-xxxx-xxxx  
-🌐 **个人网站**: https://schuchlee.github.io  
-💻 **GitHub**: https://github.com/SchuchLee
+啦啦啦
 
----
+### Project C
 
-> **求职状态**: 正在寻找实习/全职机会  
-> **期望岗位**: 前端开发工程师 / 全栈开发工程师  
-> **工作地点**: 北京/上海/深圳/远程
+#### 1800/01 ~ 1900/01: Developed by XX company
 
-*感谢您花时间阅读我的简历！如有任何问题，欢迎随时联系我。*
+啦啦啦
+
+## <i class="fab fa-github"></i> Open Source Contributions
+
+
+### Volantis
+
+#### 2017 ~ Present, a wonderful blog theme for Hexo 4.2
+
+- 完全自由的模块化、易于定制化设计
+- 移动端优化
+- 源码：https://github.com/xaoxuu/hexo-theme-volantis
+- 官网：https://volantis.js.org/
+
+### ProHUD
+
+#### 2019/08 ~ present, HUD library with easy customization and simple interface
+
+- 使用Swift5编写。
+- 包含顶部通知横幅、弹窗、底部操作表三种使用场景的UI控件。
+- 易于配置UI从而满足公司各业务线的UI要求，接口调用简单明了。
+- 源码：https://github.com/xaoxuu/ProHUD
+
+<fancybox>
+<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot01.png'>
+<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot02.png'>
+<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot03.png'>
+<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot04.png'>
+<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot05.png'>
+<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot06.png'>
+<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot07.png'>
+<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot08.png'>
+<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot09.png'>
+<img src='https://cdn.jsdelivr.net/gh/xaoxuu/cdn-assets/proj/prohud/screenshot10.png'>
+</fancybox>
+
+
+## <i class="fas fa-phone-alt"></i> Contact
+
+目前状态为：在职，考虑换工作，100年内可到岗。
+
+<i class="fas fa-envelope fa-fw"></i> your email
+<i class="fas fa-phone-alt fa-fw"></i> 1xxxxxxxxxx
+
+
+
+## Theme Config
+
+```yaml
+cdn:
+  # These base libraries cannot be deleted
+  jquery: https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js
+  vue: https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.min.js
+  # When these CDN resources are deleted, local resources are loaded.
+  common: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/common.js
+  escape: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/css.escape.js
+  smooth_scroll: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/js/smooth-scroll.min.js
+  css: https://cdn.jsdelivr.net/gh/xaoxuu/hexo-theme-resume@1.0.0/source/css/style.min.css
+  # Optional plug-in: image zoom
+  fancybox:
+    css: https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css
+    js: https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js
+
+# robots meta tag
+robots: noindex,nofollow
+
+# the footer of your site
+copyright: '[Copyright © 2017-2020 Mr. X](https://xaoxuu.com)'
+```
+
+## Comments
+
+{% raw %}
+<script src="https://utteranc.es/client.js"
+        repo="xaoxuu/hexo-theme-resume"
+        issue-number="17"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+{% endraw %}
